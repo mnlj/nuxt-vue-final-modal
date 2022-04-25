@@ -7,8 +7,8 @@
       Content
     </div>
     <div class="modal__action">
-      <v-button @click="$emit('confirm', close)">confirm</v-button>
-      <v-button @click="$emit('cancel', close)">cancel</v-button>
+      <button @click="$emit('confirm', close)">confirm</button>
+      <button @click="$emit('cancel', close)">cancel</button>
     </div>
     <button class="modal__close" @click="close">
       Close
